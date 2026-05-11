@@ -1,7 +1,12 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import { Scene } from "./scene";
+
 export default function Home() {
   return (
-    <div className="w-full">
-      <h1>Hello</h1>
-    </div>
+    <main style={{ width: "100vw", height: "100vh" }}>
+      <Scene />
+    </main>
   );
 }
